@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,55 +7,69 @@
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1 id="inicio" style="text-align: center;">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2><mark>Índice</mark></h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#internet">Como surgiu e como funciona a Internet?</a></li>
+        <li><a href="#client-server">O que são Clients e Servers?</a></li>
+        <li><a href="#html">O que é o HTML?</a></li>
+        <li><a href="#tags-principais">Quais suas principais tags?</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
     </ul>
+    <hr>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia"><mark>História dos computadores</mark></h2><small><a href="#inicio">(Voltar ao início)</a></small>
+    <p>Os computadores têm uma linha do tempo dividida por gerações. Cada uma delas é marcada por características definidas por inovações ou meios de funcionamento em específico, embora o recorte temporal possa variar.</p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h3>Primeira Geração (1939-1955)</h3>
+    <p>O <strong>ENIAC</strong>, considerado o primeiro computador eletrônico digital da primeira geração, foi desenvolvido entre 1943 e 1946. Utilizava válvulas eletrônicas e era capaz de realizar cálculos complexos para o exército dos EUA. O ENIAC era um computador de grande porte e que utilizava tubos em substituição aos relés, através destes o processamento das inforações binárias eram mais dinâmicas para a época. Eles mediam metros de altura e comprimento, pesavam toneladas e tinham um custo que seria atualmente milionário.</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h3>Segunda Geração (1955-1964)</h3>
+    <p>Agora, o processamento de dados ocorria por meio de transistores, que controlavam o fluxo da corrente elétrica por meio do chaveamento das informações binárias. Custavam menos que tubos a vácuo, geravam menos calor, eram ligeiramente menores e tinham maior durabilidade; tinham também a capacidade de compreenderem linguagem de programação mais complexa, como a Fortran e a Cobol. Destacaram-se entre eles o IBM 1401 e o IBM 7094.</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <hr>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="internet"><mark>Como surgiu e como funciona a Internet?</mark></h2><small><a href="#inicio">(Voltar ao início)</a></small>
+    <p>O ponto de partida foi a criação da <strong>ARPANET</strong>, em 1969, pelo Departamento de Defesa dos Estados Unidos. Inicialmente, a rede conectava universidades e centros de pesquisa com o objetivo de compartilhar dados de forma rápida e segura. O diferencial da ARPANET estava em seu modelo de comutação por pacotes e na ausência de um ponto central de controle, o que aumentava sua resistência a falhas e ataques — característica essencial em tempos de tensão geopolítica.</p>
+    <p>Com o tempo, a ARPANET evoluiu, sendo substituída por novas tecnologias e protocolos. O mais importante deles foi o <strong>TCP/IP</strong>, adotado oficialmente em 1983, que permitiu a comunicação entre diferentes redes e consolidou a base técnica da internet moderna. No início da década de 1990, a criação da <strong>World Wide Web</strong> por Tim Berners-Lee revolucionou a forma de usar a internet, tornando-a acessível a um público mais amplo e visualmente navegável.</p>
+    <p>Assim, pode-se afirmar que a internet não surgiu como produto da sociedade de consumo, mas sim de uma necessidade estratégica. No entanto, sua evolução permitiu que se transformasse no principal motor da globalização e da era da informação. Entender esse percurso histórico é essencial para valorizar a complexidade e o impacto que a internet exerce sobre todos os aspectos da vida contemporânea.</p>
+    <p>A internet funciona como uma grande rede mundial de computadores interligados que trocam informações entre si por meio de protocolos, principalmente o TCP/IP. Quando um usuário faz uma solicitação, como acessar um site, o dispositivo envia esse pedido a um servidor, que responde com os dados necessários. Essa comunicação ocorre por meio de cabos, roteadores e satélites, garantindo que a informação viaje de forma rápida e segura até o destino.</p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <hr>
+    
+    <h2 id="client-server"><mark>O que são Clients e Servers?</mark></h2><small><a href="#inicio">(Voltar ao início)</a></small>
+    <p>O client é um dispositivo ou programa que inicia a comunicação com o servidor. Essa comunicação é feita através de requisições de serviços, dados ou recursos. Essa solicitação tem a finalidade de receber as informações requisitadas pelo usuário, como uma página web, um vídeo, uma imagem, etc. </p>
+    <p>Já o server é um dispositivo ou programa que responde a solicitação dos clients. Eles estão sempre a disposição dos usuários para encaminhar o que foi pedido e podem atender a várias solicitações ao mesmo tempo. São exemplos de um server: um servidor web, um servidor de banco de dados, um servidor de arquivos.</p>
+
+    <hr>
+
+    <h2 id="html"><mark>O que é o HTML?</mark></h2><small><a href="#inicio">(Voltar ao início)</a></small>
+    <p>O HTML (HyperText Markup Language) é uma linguagem de marcação usada para a criação de páginas web com o auxílio do CSS (Cascading Style Sheets) e JS (JavaScript). Essa linguagem foi criada pelo pelo britânico Tim Berners-Lee em 1991. Ele desenvolveu o HTML como parte de um projeto maior no <em>CERN (Organização Europeia para a Pesquisa Nuclear)</em>, com o objetivo de facilitar o compartilhamento de documentos científicos entre pesquisadores por meio da recém-criada World Wide Web (WWW). O HTML permitia a criação de páginas com links (hipertextos), formando a base da web como a conhecemos hoje. </p>
+
+    <hr>
+
+    <h2 id="tags-principais"><mark>Quais suas principais tags?</mark></h2><small><a href="#inicio">(Voltar ao início)</a></small>
+    <p>Abaixo as principais tags usadas para a estruturação de uma página web e o que elas fazem:</p>
+    <p><strong>&lt;html&gt;</strong> – Tag raiz do documento.</p>
+    <p><strong>&lt;header&gt;</strong> – Cabeçalho da página ou seção (geralmente inclui logo, menu, etc.)</p>
+    <p><strong>&lt;nav&gt;</strong> – Navegação principal (menus).</p>
+    <p><strong>&lt;main&gt;</strong> – Conteúdo principal da página.</p>
+    <p><strong>&lt;section&gt;</strong> – São seções do conteúdo.</p>
+    <p><strong>&lt;article&gt;</strong> – Conteúdo independente (posts, artigos).</p>
+    <p><strong>&lt;aside&gt;</strong> – Conteúdo complementar (barras laterais).</p>
+    <p><strong>&lt;footer&gt;</strong> – Rodapé da página.</p>
+
+    <hr>
+
+    <h2 id="referencias"><mark>Links de referências bibliográficas</mark></h2><small><a href="#inicio">(Voltar ao início)</a></small>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li><a href="http://dio.me" target="_blank">http://dio.me</a></li>
+        <li><a href="http://w3c.org" target="_blank">http://w3c.org</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">https://developer.mozilla.org/pt-BR/</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">https://www.w3schools.com/html/</a></li>
     </ul>
 
 </body>
